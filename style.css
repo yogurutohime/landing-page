@@ -50,7 +50,9 @@ body {
     font-size: 16px;
     border-color: white;
 }
-
+.first-section .sign-up-button {
+    border-color: #3882F6;
+}
 .first-section-right {
     background-color: rgba(255,255,255, 0.3);
     width: 400px;
@@ -170,7 +172,7 @@ body {
     justify-content: space-around;
     background-color: #3882F6;
     border-radius: 15px;
-    padding: 20px;
+    padding: 50px;
     align-items: center;
 }
 
@@ -183,4 +185,13 @@ body {
 .call-to-action {
     font-size: 24px;
     font-weight: 300;
+}
+
+.footer {
+    background-color:#1F2937;
+    color:#f9faf8;
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
 }
